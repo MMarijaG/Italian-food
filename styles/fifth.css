@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+@font-face {
+    font-family: reey-regular;
+    src: url('../images/Reey-Regular.otf') format("opentype");
+}
+.fifth {
+    background-image: url(../images/background.png);
+    height: 110vh;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+#leaves2{
+    position: absolute;
+    bottom: 15vh;
+    left:4.5vw ;
+    width:100%;
+    height: auto;
+    z-index: 1;
+}
+
+.header-holder2 {
+    font-family:'reey-regular';
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    padding-left: 2.5 em;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    align-content: center;
+    
+}
+
+.centered {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    width:70%;
+    margin:auto
+}
+
+hr {
+    background-color: beige;
+    height: 0.5em;
+    width:8em;
+    margin: auto;
+    margin-top: 1em;
+}
+
+#pizza {
+   position: relative;
+   margin-top: 3vh;
+   margin-left: 40vw;   
+}
+
+#pizza-slice{
+    position: relative;
+    
+   
+}
+
+@media (min-width:992px){
+    #pizza {
+        width: 380px;
+        height: auto;
+    }
+    #pizza-slice{
+        top:2vh;
+        right: -3vw;
+        width:200px;
+        height: auto;
+    }
+}
+
+@media (max-width:600px){
+    .header-holder2{
+        font-size: 7vw;
+    }
+    .centered{
+        padding: 0em 3em;
+    }
+    #pizza{
+        top: 15vh;
+    }
+    #pizza-slice{
+        top:15vh
+    }
+}
