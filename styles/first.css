@@ -1,4 +1,6 @@
+/*THIS IS PART WHERE I IMPORT FONT-FAMILY WHICH I DOWNLOAD FROM GOOGLE FONTS.*/
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+/*REEY-REGULAR IS FONT-FAMILY WHICH IS DOWNLOADED FROM INTERNET.*/
 @font-face {
     font-family: reey-regular;
     src: url('../images/Reey-Regular.otf') format("opentype");
