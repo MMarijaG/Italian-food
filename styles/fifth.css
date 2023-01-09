@@ -49,8 +49,10 @@ hr {
    margin-top: 3vh;
    margin-left: 40vw;   
 }
-#pizza-slice{
-    position: relative;  
+#pizza-slice{ 
+    position: relative;
+    margin-left: 30vw;
+    margin-top: -30vh;  
 }
 @media (min-width:992px){
     #pizza {
