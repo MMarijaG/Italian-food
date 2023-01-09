@@ -14,7 +14,8 @@
 }
 #leaves2{
     position: absolute;
-    bottom: 15vh;
+    top:-25vh;
+    bottom: 10vh;
     left:4.5vw ;
     width:100%;
     height: auto;
@@ -47,7 +48,8 @@ hr {
 #pizza {
    position: relative;
    margin-top: 3vh;
-   margin-left: 40vw;   
+   margin-left: 40vw; 
+   height: 50vh;  
 }
 #pizza-slice{ 
     position: relative;
@@ -55,14 +57,26 @@ hr {
     margin-top: -30vh;  
 }
 @media (min-width:992px){
+    .fifth{
+        width: 100%;
+        height: 80vh;
+    }
+    #leaves2{
+        width: 100%;
+        position: absolute;
+        bottom: 10vh;
+        left:4.5vw ;
+        height: auto;
+        z-index: 1;
+    }
     #pizza {
-        width: 380px;
+        width: 10em;
         height: auto;
     }
     #pizza-slice{
         top:2vh;
         right: -3vw;
-        width:200px;
+        width:3em;
         height: auto;
     }
 }

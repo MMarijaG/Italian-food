@@ -39,16 +39,25 @@
     padding-left: 3em;
 }
 @media (max-width:992px){
-   .blocks-holder .blocks:first-child p{
+    .blocks-holder .blocks:first-child p{
     padding:2em 5em 1em 4em;
 }
+   .footer{
+    height: 50vh;
+  }
 }
-@media (max-width:786px){
+  @media (max-width:786px){
     .blocks-holder{
         grid-template-columns:50% 50% ;
     }
     .blocks{
         padding-top: 3em;
+    }
+    .blocks-holder .blocks:first-child{
+       display: block;
+    }
+    .blocks-holder .blocks:nth-child(2){
+        display: block;
     }
     .blocks-holder .blocks:nth-child(3){
         padding: 0em 0em 3em 4em ;

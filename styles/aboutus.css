@@ -144,6 +144,18 @@ h1{
     color:#fff;
 }
 @media screen and (max-width: 992px){
+.header{
+    height: 20vh;
+}
+.header ul li {
+    font-weight: 600;
+    letter-spacing:1mm;
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+}
+.aboutus{
+    height: 80vh;
+}
 .container{
     width: 80%;
     display: block;
@@ -162,7 +174,7 @@ h1{
 }
 .image-aboutus img{
     width: 100%;
-    height: auto;
+    height: 50vh;
     display: block;
     margin:auto;
 }
@@ -175,6 +187,24 @@ h1{
     padding:0.8em 2em;
 }
 }
+@media only screen and (max-width: 786px) {
+    .aboutus{
+        height: 150vh;
+        width: 100%;
+    }
+    h1{
+        padding: 1em 0.5em 1em 0.5em;
+    }
+   
+    .header{
+        height: 20vh;
+    }
+    .header ul li {
+        display:inline-block;
+        padding: 0.5em ;
+    }
+
+  }
 /*FOOTER*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
@@ -215,16 +245,25 @@ h1{
     padding-left: 3em;
 }
 @media (max-width:992px){
-   .blocks-holder .blocks:first-child p{
+    .blocks-holder .blocks:first-child p{
     padding:2em 5em 1em 4em;
 }
+   .footer{
+    height: 50vh;
+  }
 }
-@media (max-width:786px){
+  @media (max-width:786px){
     .blocks-holder{
         grid-template-columns:50% 50% ;
     }
     .blocks{
         padding-top: 3em;
+    }
+    .blocks-holder .blocks:first-child{
+       display: block;
+    }
+    .blocks-holder .blocks:nth-child(2){
+        display: block;
     }
     .blocks-holder .blocks:nth-child(3){
         padding: 0em 0em 3em 4em ;

@@ -78,6 +78,10 @@
 }
 
 @media (max-width:992px) {
+    .second{
+        width: 100%;
+        height: 50vh;
+    }
     .items-list {
         max-width: 95%;
     }

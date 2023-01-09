@@ -56,4 +56,12 @@
     margin-left: 2em;
     margin-bottom: 1rem;
 }
-
+@media (max-width:768px){
+    .fourth{
+        width: 100vw;
+        height: 200vh;
+    }
+    .fourth-content-container{
+        display: block;
+    }
+}
