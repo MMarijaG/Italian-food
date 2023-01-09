@@ -10,15 +10,12 @@
 body {
     margin:0;
 }
-
 button {
     border:none;
     border-radius: 15px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-
-
 .first {
     background-image: url("../images/background.png");
     height: 100vh;
@@ -26,18 +23,15 @@ button {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 ul{
     list-style-type: none;   
 }
-
 .header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 2em 2em 3em 0em;
 }
-
 .header ul li {
     display: inline-block;
     font-weight: 600;
@@ -59,12 +53,10 @@ a{
 a:hover{
     background-color: white;
     color: black;
-
 }
 .header ul li a{
     transition: all 0.3s ease 0s;
 }
-
 .list li:hover{
     background-color: white;
     color: black;
@@ -72,8 +64,7 @@ a:hover{
 #search {
     padding: 0.8em 0px;
     border:none ;
-    border-radius: 50px;
-   
+    border-radius: 50px;  
 }
 .header i {
     color:  rgb(46, 44, 44);
@@ -81,18 +72,15 @@ a:hover{
     right: 3em;
     font-size: large;
 }
-
 .grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
 }
-
 .logo img {
     margin-left: 8vw;
     height: 5em;
     width: auto;
 }
-
 .italian-food {
     font-family: 'reey-regular';
     font-size: 4em;
@@ -110,21 +98,17 @@ a:hover{
     letter-spacing: 0.2em;
     font-size: 2.5vh;
 }
-
 .italic-text {
     margin: 1em 5em 0em 8vw;
     font-style: italic;
     width: 55%;
-
 }
-
 .first-column button {
     margin-left: 8vw;
     padding: 0.5em 2em 0.5em 2em;
     font-weight: 600;
     color: rgb(46, 44, 44);
 }
-
 .first-column button:hover {
     background-color: rgb(239, 239, 104);
 }
@@ -144,7 +128,6 @@ a:hover{
     right: 71%;
     top:73%
 }
-
 .leaves {
     width:62%;
     height: auto;
