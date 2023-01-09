@@ -1,10 +1,10 @@
+/*THIS IS IMPORT FOR FONT-FAMILY MONTSERRAT AND OPEN SANS WHICH I DOWNLOAD FROM GOOGLE FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 .eight{
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
 }
-
 .blocks-holder {
     height: 100%;
     display: grid;
@@ -13,12 +13,10 @@
 .blocks {
     padding-top:12em;
 }
-
 .blocks ul{
     padding: 0px ;
     margin: 0%;
 }
-
 .blocks > h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -26,24 +24,20 @@
     font-weight: bold;
    
 }
-
 .blocks-holder .blocks:first-child p{
     padding:2em 16em 1em 4em;
 }
 .blocks-holder .blocks:first-child h3{
     padding: 0em 3em;
 }
-
 .blocks ul li {
     padding-bottom: 0.5em;
     padding-right: 1em ;
 }
-
 .icons {
     font-size:x-large;
     padding-left: 3em;
 }
-
 @media (max-width:992px){
    .blocks-holder .blocks:first-child p{
     padding:2em 5em 1em 4em;
